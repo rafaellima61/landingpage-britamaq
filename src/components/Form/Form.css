@@ -1,0 +1,103 @@
+.form-container {
+  background: #f8f9fa;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-header h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #232946;
+  letter-spacing: -1px;
+}
+
+
+.form-header p {
+  color: #6e6a86;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+.lead-form {
+  background: #f8f9fa; /* alterado aqui */
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px rgba(35, 41, 70, 0.10);
+  padding: 2.2rem 2rem 1.5rem 2rem;
+  max-width: 410px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  border: 1px solid #eaeaea;
+}
+
+.lead-form label {
+  font-size: 1rem;
+  color: #232946;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0.2px;
+}
+
+.lead-form input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  background: #f4f6fb;
+  transition: box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 1px 2px rgba(35, 41, 70, 0.03);
+  margin-top: 0.1rem;
+}
+
+.lead-form input:focus {
+  background: #e9eefd;
+  box-shadow: 0 0 0 2px #a3bcf9;
+  outline: none;
+}
+
+.lead-form button[type="submit"] {
+  background: linear-gradient(90deg, rgb(245, 122, 35) 0%, #ffb86b 100%);
+  color: #fff;
+  font-weight: 700; /* mais destaque */
+  font-size: 1.12rem; /* levemente maior */
+  text-transform: uppercase; /* tudo maiúsculo */
+  letter-spacing: 1px; /* mais espaçamento */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.08); /* sombra suave */
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem 0;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.12s, box-shadow 0.18s;
+  margin-top: 0.7rem;
+  box-shadow: 0 2px 12px rgba(245, 122, 35, 0.10);
+}
+
+.lead-form button[type="submit"]:hover,
+.lead-form button[type="submit"]:focus {
+  background: linear-gradient(90deg, #ffb86b 0%, rgb(245, 122, 35) 100%);
+  transform: translateY(-2px) scale(1.035);
+  box-shadow: 0 4px 18px rgba(245, 122, 35, 0.18);
+}
+
+.lead-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+@media (max-width: 500px) {
+  .lead-form {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+    max-width: 98vw;
+  }
+  .form-header h2 {
+    font-size: 1.3rem;
+  }
+}

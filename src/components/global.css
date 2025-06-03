@@ -9,4 +9,8 @@
   list-style: none;
 
   font-family: "Ubuntu", sans-serif;
+
+  
+  scroll-behavior: smooth;
+
 }

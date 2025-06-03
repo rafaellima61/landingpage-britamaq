@@ -4,14 +4,14 @@ import videoBg from '../../assets/banner.mp4'; // ajuste o nome do arquivo
 function Hero() {
   return (
     <div className="banner-container">
-        <div className="banner-txt-area">
-            <video
+      <video
               className='video-background'
               src={videoBg}
               autoPlay
               loop
               muted
             />
+        <div className="banner-txt-area">
             <h1 className='banner-title'>Britadores, Cones, Peineiras, <br/> Roletes e Transportadores</h1>
             <p className='banner-description'>
               Eleve o nível de sua Pedreira com a <span>Britamaq</span>! Oferecemos 

@@ -1,0 +1,30 @@
+.footer {
+    background: rgb(245, 122, 35);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    box-shadow: 0 -2px 16px rgba(255,152,0,0.08);
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    opacity: 0.80;
+}
+
+.autor {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}

@@ -6,12 +6,12 @@ function Header() {
             <div className="logo"><a href="#">Britamaq</a></div>
             <nav className="nav">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
-            <div className="cta"><a href="#">Orcamento</a></div>
+            <a className='cta-menu' href="#">Orçamento</a>
         </div>
        </header>
     );

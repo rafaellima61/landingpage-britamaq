@@ -1,0 +1,83 @@
+.servicos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+.servicos-content {
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.servicos-title {
+    color: rgb(245, 122, 35);
+
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
+.servicos-description {
+    color: #333;
+   
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.servicos-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 32px;
+}
+
+.card {
+background: #f8f9fa;
+    border-radius: 2px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 24px 16px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px rgba(245, 122, 35, 0.18);
+  transform: translateY(-8px) scale(1.03);
+  background: #fff3e6;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-title {
+  margin: 16px 0 8px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card .orange {
+  width: 100%;
+  height: 4px;
+  background: rgb(245, 122, 35);
+  /* margin: 12px 0; */
+}
