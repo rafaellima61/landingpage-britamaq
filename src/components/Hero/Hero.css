@@ -1,0 +1,81 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45); /* ajuste a opacidade conforme desejar */
+    z-index: 0;
+    pointer-events: none;
+}
+
+.banner-txt-area {
+  position: relative;
+  z-index: 2;
+  color: #fff; /* ajuste conforme necessário */
+  /* centralize o texto se quiser */
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
+    background: rgba(0, 0, 0, 0.45); /* fundo escuro semitransparente */
+  padding: 40px 0 40px 0;           /* ajuste conforme necessário */
+  border-radius: 12px; 
+}
+
+.banner-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 40%;
+    margin-left: 40px;
+    text-shadow: 2px 4px 12px rgba(0,0,0,0.85), 0 1px 0 #000;
+}
+
+.banner-description {
+    color: white;
+    font-size: 1.5rem;
+   
+    margin-top: 14px;
+    margin-left: 40px;
+    width: 45%;
+    text-shadow: 2px 4px 12px rgba(0,0,0,0.85), 0 1px 0 #000;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.btn-cta {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+
+    margin-top: 23px;
+    margin-left: 40px;
+}
+
