@@ -8,13 +8,19 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <>
-    <Header/>
-    <Hero/>
-    <Servicos/>
-    <About/>
-    <Form />
-    <Footer/>
+   <>
+      <Header />
+      <Hero />
+      <section id="servicos">
+        <Servicos />
+      </section>
+      <section id="sobre">
+        <About />
+      </section>
+      <section id="contato">
+        <Form />
+      </section>
+      <Footer />
     </>
   )
 }
